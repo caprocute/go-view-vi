@@ -1,0 +1,10 @@
+{
+  "dimensions": ["name", "value"],
+  "source": [
+    { "name": "Berlin", "value": 20 },
+    { "name": "Newyork", "value": 40 },
+    { "name": "Seoul", "value": 60 },
+    { "name": "Tokyo", "value": 80 },
+    { "name": "Hanoi", "value": 100 }
+  ]
+}

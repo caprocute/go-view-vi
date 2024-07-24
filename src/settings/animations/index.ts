@@ -1,0 +1,57 @@
+export const animations = [
+  {
+    label: 'Emphasis on animation',
+    children: [
+      { label: 'Bouncing', value: 'bounce' },
+      { label: 'Flashing', value: 'flash' },
+      { label: 'Zoom in', value: 'pulse' },
+      { label: 'Zoom in and out of the spring', value: 'rubberBand' },
+      { label: 'Shake from side to side', value: 'headShake' },
+      { label: 'Swing left and right in a fan-shaped fashion', value: 'swing' },
+      { label: 'Zoom in, shake and zoom out', value: 'tada' },
+      { label: 'Scallop swing', value: 'wobble' },
+      { label: 'Shake it up and down from side to side', value: 'jello' },
+    ]
+  },
+  {
+    label: 'Move in animation',
+    children: [
+      { label: 'Fade in', value: 'fadeIn' },
+      { label: 'Enter to the right', value: 'fadeInLeft' },
+      { label: 'Enter to the left', value: 'fadeInRight' },
+      { label: 'Go up', value: 'fadeInUp' },
+      { label: 'Go down', value: 'fadeInDown' },
+      { label: 'Enter long distances to the right', value: 'fadeInLeftBig' },
+      { label: 'Enter long distances to the left', value: 'fadeInRightBig' },
+      { label: 'Long upward entry', value: 'fadeInUpBig' },
+      { label: 'Downward long distance', value: 'fadeInDownBig' },
+      { label: 'Rotate in', value: 'rotateIn' },
+      { label: 'Left rotates clockwise', value: 'rotateInDownLeft' },
+      { label: 'Rotate right counterclockwise', value: 'rotateInDownRight' },
+      { label: 'Left rotates counterclockwise', value: 'rotateInUpLeft' },
+      { label: 'Rotate right counterclockwise', value: 'rotateInUpRight' },
+      { label: 'Ejection in', value: 'bounceIn' },
+      { label: 'Flick in to the right', value: 'bounceInLeft' },
+      { label: 'Flick in to the left', value: 'bounceInRight' },
+      { label: 'Bounce up', value: 'bounceInUp' },
+      { label: 'Snap down', value: 'bounceInDown' },
+      { label: 'The speed of light enters from the right', value: 'lightSpeedInRight' },
+      { label: 'The speed of light enters from the left', value: 'lightSpeedInLeft' },
+      { label: 'The speed of light exits from the right', value: 'lightSpeedOutRight' },
+      { label: 'The speed of light exits from the left', value: 'lightSpeedOutLeft' },
+      { label: 'Y-axis rotation', value: 'flip' },
+      { label: 'The center X axis rotates', value: 'flipInX' },
+      { label: 'The center Y axis rotates', value: 'flipInY' },
+      { label: 'Left long radius rotation', value: 'rollIn' },
+      { label: 'Enter from small to large', value: 'zoomIn' },
+      { label: 'Left becomes larger to enter', value: 'zoomInLeft' },
+      { label: 'Right becomes larger to enter', value: 'zoomInRight' },
+      { label: 'Climb up and get bigger in', value: 'zoomInUp' },
+      { label: 'Downward enlargement enters', value: 'zoomInDown' },
+      { label: 'Swipe right to expand', value: 'slideInLeft' },
+      { label: 'Swipe left to expand', value: 'slideInRight' },
+      { label: 'Swipe up to expand', value: 'slideInUp' },
+      { label: 'Swipe down to expand', value: 'slideInDown' }
+    ]
+  }
+]

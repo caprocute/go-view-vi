@@ -1,0 +1,14 @@
+[
+  { "name": "Rongcheng", "value": 26700 },
+  { "name": "Henan", "value": 20700 },
+  { "name": "Hebei", "value": 18700 },
+  { "name": "Xuzhou", "value": 17800 },
+  { "name": "Luohe", "value": 16756 },
+  { "name": "Sanmenxia", "value": 12343 },
+  { "name": "Zhengzhou", "value": 9822 },
+  { "name": "Zhoukou", "value": 8912 },
+  { "name": "Puyang", "value": 6834 },
+  { "name": "Xinyang", "value": 5875 },
+  { "name": "Xinxiang", "value": 3832 },
+  { "name": "Datong", "value": 1811 }
+]

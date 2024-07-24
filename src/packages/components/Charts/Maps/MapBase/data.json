@@ -1,0 +1,104 @@
+{
+  "point": [
+    {
+      "name": "Beijing",
+      "value": [116.405285, 39.904989, 200]
+    },
+    {
+      "name": "Zhengzhou",
+      "value": [113.665412, 34.757975, 888]
+    },
+    {
+      "name": "Qinghai",
+      "value": [101.778916, 36.623178, 666]
+    },
+    {
+      "name": "Ningxia Hui Autonomous Region",
+      "value": [106.278179, 38.46637, 66]
+    },
+    {
+      "name": "Harbin City",
+      "value": [126.642464, 45.756967, 101]
+    }
+  ],
+  "line": [
+    {
+      "coords": [
+        [113.665412, 34.757975],
+        [116.405285, 39.904989]
+      ]
+    },
+    {
+      "coords": [
+        [101.778916, 36.623178],
+        [116.405285, 39.904989]
+      ]
+    },
+    {
+      "coords": [
+        [106.278179, 38.46637],
+        [116.405285, 39.904989]
+      ]
+    },
+    {
+      "coords": [
+        [126.642464, 45.756967],
+        [116.405285, 39.904989]
+      ]
+    }
+  ],
+  "map": [
+    {
+      "name": "Beijing City",
+      "value": 666
+    },
+    {
+      "name": "Hebei Province",
+      "value": 98
+    },
+    {
+      "name": "Jiangsu Province",
+      "value": 300
+    },
+    {
+      "name": "Fujian Province",
+      "value": 1199
+    },
+    {
+      "name": "Shandong Province",
+      "value": 86
+    },
+    {
+      "name": "Henan Province",
+      "value": 850
+    },
+    {
+      "name": "Hubei Province",
+      "value": 84
+    },
+    {
+      "name": "Guangxi Zhuang Autonomous Region",
+      "value": 81
+    },
+    {
+      "name": "Hainan Province",
+      "value": 900
+    },
+    {
+      "name": "Qinghai Province",
+      "value": 800
+    },
+    {
+      "name": "Xinjiang Uygur Autonomous Region",
+      "value": 7
+    }
+  ],
+  "pieces": [
+    { "gte": 1000, "label": ">1000" },
+    { "gte": 600, "lte": 999, "label": "600-999" },
+    { "gte": 200, "lte": 599, "label": "200-599" },
+    { "gte": 50, "lte": 199, "label": "49-199" },
+    { "gte": 10, "lte": 49, "label": "10-49" },
+    { "lte": 9, "label": "<9" }
+  ]
+}
