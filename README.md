@@ -1,16 +1,12 @@
-## 总览
+## Overview
 
-**`master-fetch` 分支是带有后端接口请求的分支**
+**API documentation URL: [https://docs.apipost.cn/preview/5aa85d10a59d66ce/ddb813732007ad2b?target_id=84dbc5b0-158f-4bcb-8f74-793ac604ada3#3e053622-1e76-43f9-a039-756aee822dbb](https://docs.apipost.cn/preview/5aa85d10a59d66ce/ddb813732007ad2b?target_id=84dbc5b0-158f-4bcb-8f74-793ac604ada3#3e053622-1e76-43f9-a039-756aee822dbb)**
 
-**后端项目地址：[https://gitee.com/MTrun/go-view-serve](https://gitee.com/MTrun/go-view-serve)**
+## Usage
 
-**接口说明地址：[https://docs.apipost.cn/preview/5aa85d10a59d66ce/ddb813732007ad2b?target_id=84dbc5b0-158f-4bcb-8f74-793ac604ada3#3e053622-1e76-43f9-a039-756aee822dbb](https://docs.apipost.cn/preview/5aa85d10a59d66ce/ddb813732007ad2b?target_id=84dbc5b0-158f-4bcb-8f74-793ac604ada3#3e053622-1e76-43f9-a039-756aee822dbb)**
+All API endpoints location: `src\api\path\*`
 
-## 使用
-
-所有的接口地址位置：`src\api\path\*`
-
-接口地址修改：`.env`
+API endpoint modification: `.env`
 
 ```shell
 # port
@@ -23,14 +19,14 @@ VITE_DEV_PATH = 'http://127.0.0.1:8080'
 VITE_PRO_PATH = 'http://127.0.0.1:8080'
 ```
 
-公共前缀修改：`src\settings\httpSetting.ts`
+Public prefix modification: `src\settings\httpSetting.ts`
 
 ```shell
-// 请求前缀
+// Request prefix
 export const axiosPre = '/api/goview'
 ```
 
-接口封装：`src\api\http.ts`
+API encapsulation: `src\api\http.ts`
 
 ```ts
 import axiosInstance from './axios'
@@ -74,7 +70,7 @@ export const del = (url: string, params?: object) => {
   })
 }
 
-// 获取请求函数，默认get
+// Default request function is GET
 export const http = (type?: RequestHttpEnum) => {
   switch (type) {
     case RequestHttpEnum.GET:
@@ -93,27 +89,19 @@ export const http = (type?: RequestHttpEnum) => {
       return get
   }
 }
-
 ```
 
-## 代码提交
+## Code Commit
 
-* feat: 新功能
-* fix: 修复 Bug
-* docs: 文档修改
-* perf: 性能优化
-* revert: 版本回退
-* ci: CICD集成相关
-* test: 添加测试代码
-* refactor: 代码重构
-* build: 影响项目构建或依赖修改
-* style: 不影响程序逻辑的代码修改
-* chore: 不属于以上类型的其他类型(日常事务)
+* feat: New features
+* fix: Bug fixes
+* docs: Documentation changes
+* perf: Performance optimization
+* revert: Version rollback
+* ci: CICD integration related
+* test: Adding test code
+* refactor: Code refactoring
+* build: Changes affecting project build or dependencies
+* style: Code changes that do not affect the program logic
+* chore: Other types not included above (routine tasks)
 
-## 交流
-
-QQ 群：1030129384
-
-![QQ群](readme/go-view-qq.png)
-
-![渲染海报](readme/logo-poster.png)
